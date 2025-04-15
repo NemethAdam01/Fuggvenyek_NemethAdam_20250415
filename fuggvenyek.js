@@ -16,7 +16,8 @@ console.log(add3(5, 3));
     udv = function() {
     return "Szia! " + nev + " vagyok!";
     }
-    let vmi = document.getElementById("szoveg");
-    vmi.innerText = "Szia! " + nev + " vagyok!";
     console.log(udv());
     }());
+
+let vmi = document.getElementById("szoveg");
+vmi.innerText = "Szia! " + nev + " vagyok!";
